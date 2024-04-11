@@ -46,5 +46,5 @@ This project is licensed under the MIT License - see the `LICENSE` file in the r
 
 ## Acknowledgments
 
-- This package was developed as part of the Quality Engineering and Analysis (QEA) course.
+- This package was developed as part of the Quantitative Engineering and Analysis (QEA) course.
 - Special thanks to all contributors and users of this package.
