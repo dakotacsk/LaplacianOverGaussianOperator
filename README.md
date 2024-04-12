@@ -14,7 +14,11 @@ pip install git+https://github.com/dcoder0111/QEA2_LaplacianOverGaussianOperator
 
 ## Usage
 
-Example usage is shown in example_usage.py.
+Example usage is shown in example_usage.py. More documentation about the mathematical reasoning behind the code and these filters are provided in the [TeachingMaterials](TeachingMaterial) folder.
+
+## Examples
+
+An example image `spherical_cow.jpeg` is included in the `img/` directory to help you get started with the package. You can use this image to test the functionality of the edge detection algorithm.
 
 Here are some things you can generate with this library:
 Original Image:
@@ -26,9 +30,6 @@ Sobel and Laplacian Applied to Image:
 LoG Applied with Different Sigma Values:
 ![An image of Olin College's Miller Academic Center with LoG applied](https://github.com/dcoder0111/QEA2_LaplacianOverGaussianOperator/blob/main/img/examples/Olin_LoG.png?raw=true)
 
-## Examples
-
-An example image `spherical_cow.jpeg` is included in the `img/` directory to help you get started with the package. You can use this image to test the functionality of the edge detection algorithm.
 
 ## Repo Structure
 
