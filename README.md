@@ -1,6 +1,6 @@
 # QEA2_LaplacianOverGaussianOperator
 
-This repository contains the `QEA2_LaplacianOverGaussianOperator` package, which provides tools for edge detection in images using the Laplacian of Gaussian (LoG) method. It's designed for educational purposes to demonstrate the principles of image processing in the context of quality engineering and analysis.
+This repository contains the `QEA2_LaplacianOverGaussianOperator` package, which provides tools for edge detection in images using the Laplacian of Gaussian (LoG) method. It's designed for educational purposes to demonstrate the principles of image processing in the context of QEA.
 
 ## Installation
 
