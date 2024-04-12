@@ -52,3 +52,22 @@ class LoGEdgeDetector:
         lo_g_kernel = LoGEdgeDetector.laplacian_of_gaussian_kernel(size, sigma)
         img_filtered = convolve2d(img, lo_g_kernel, mode='same', boundary='fill', fillvalue=0)
         return img_filtered
+
+    @staticmethod
+    def first_derivative_sobel(img):
+        """Applies a Sobel filter to compute the first derivative."""
+        if img.ndim > 2:
+            img = rgb2gray(img)
+        sobel_x = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
+        sobel_y = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
+        img_x = convolve2d(img, sobel_x, mode='same', boundary='fill', fillvalue=0)
+        img_y = convolve2d(img, sobel_y, mode='same', boundary='fill', fillvalue=0)
+        return np.hypot(img_x, img_y)
+
+    @staticmethod
+    def second_derivative_laplacian(img):
+        """Applies a Laplacian filter to compute the second derivative."""
+        if img.ndim > 2:
+            img = rgb2gray(img)
+        laplacian_kernel = np.array([[0, 1, 0], [1, -4, 1], [0, 1, 0]])
+        return convolve2d(img, laplacian_kernel, mode='same', boundary='fill', fillvalue=0)
