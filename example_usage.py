@@ -16,6 +16,7 @@ plt.show()
 
 # Apply first derivative (Sobel), second derivative (Laplacian), and simple Laplacian
 fig, axs = plt.subplots(1, 2, figsize=(10, 5))
+
 # First Derivative - Sobel
 sobel_result = LoGEdgeDetector.first_derivative_sobel(img)
 axs[0].imshow(sobel_result, cmap='gray')
