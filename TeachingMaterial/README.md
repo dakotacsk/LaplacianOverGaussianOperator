@@ -16,6 +16,7 @@ This folder contains educational materials related to various image processing t
 
 3. **LoG_MiniLecture.pdf**
    - **Title**: Edge Detection Using Laplacian of Gaussian Operator
+   - **Authors**: Aditi Bharadwaj, Dakota Chang
    - **Summary**: A compact lecture on the use of the LoG filter for finding edges in images. It discusses the concepts of first and second derivative filters (Sobel and Laplacian), zero-crossings, and the integration of Gaussian smoothing with Laplacian edge detection to enhance accuracy and reduce noise.
 
 ## Usage
