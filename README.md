@@ -14,7 +14,17 @@ pip install git+https://github.com/dcoder0111/QEA2_LaplacianOverGaussianOperator
 
 ## Usage
 
-Example usage shown in example_usage.py.
+Example usage is shown in example_usage.py.
+
+Here are some things you can generate with this library:
+Original Image:
+![An unmodified image Olin College's Miller Academic Center](https://github.com/dcoder0111/QEA2_LaplacianOverGaussianOperator/blob/main/img/examples/Olin.jpeg?raw=true)
+
+Sobel and Laplacian Applied to Image:
+![An image of Olin College's Miller Academic Center with LoG applied](https://github.com/dcoder0111/QEA2_LaplacianOverGaussianOperator/blob/main/img/examples/Olin_Derivatives.png?raw=true)
+
+LoG Applied with Different Sigma Values:
+![An image of Olin College's Miller Academic Center with LoG applied](https://github.com/dcoder0111/QEA2_LaplacianOverGaussianOperator/blob/main/img/examples/Olin_LoG.png?raw=true)
 
 ## Examples
 
