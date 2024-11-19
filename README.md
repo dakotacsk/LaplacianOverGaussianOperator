@@ -9,7 +9,7 @@ You can install the `QEA2_LaplacianOverGaussianOperator` directly from this GitH
 To install the package, run the following command:
 
 ```
-pip install git+https://github.com/dcoder0111/Olin_2324Spring_QEA2_LaplacianOverGaussianOperator.git#egg=Olin_2324Spring_QEA2_LaplacianOverGaussianOperator
+pip install git+https://github.com/dcoder0111/LaplacianOverGaussianOperator.git#egg=LaplacianOverGaussianOperator
 ```
 
 ## Usage
